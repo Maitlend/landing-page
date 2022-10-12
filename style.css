@@ -56,7 +56,7 @@ ul {
   flex: 1 0 50%;
   color: #F9FAF8;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .hero-sub-text {
@@ -86,6 +86,8 @@ ul {
 }
 
 .body {
+  display: flex;
+  flex-direction: column;
   padding: 36px 0;
 }
 
@@ -105,8 +107,6 @@ ul {
 }
 
 .image-with-text{
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 154px;
   color: #1F2937;
 }
@@ -116,8 +116,30 @@ ul {
   width: 148px;
   height: 148px;
   border-radius: 10%;
-  /* margin: auto; */
 }
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 6% 26.5%;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  margin: 0;
+}
+
+.quote-signature {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  align-self: flex-end;
+  margin-right: 1rem;
+}
+
 
 
 

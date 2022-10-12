@@ -141,6 +141,44 @@ ul {
   margin-right: 1rem;
 }
 
+.cta-section {
+  margin: auto;
+  padding: 9rem 0;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  width: 62rem;
+  border-radius: .5rem;
+  height: 10rem;
+  background-color: #3882F6;
+  align-items: center;
+}
+
+.cta-text p {
+  color: white;
+  margin: 0;  
+}
+
+.cta-text p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cta-text p:last-of-type {
+  font-size: 1rem;
+}
+
+.cta-btn {
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: .5rem;
+  border: 1px solid white;
+  background-color: #3882F6;
+  color: white;
+}
 
 
 
